@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2023 NITKC KosenFes - 2J Ranking Board</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="h-full w-full">
+    <h2 class="mx-4 my-2 text-2xl">2J スーパーボールすくい　スコアボード</h2>
+    <div class="grid grid-cols-2 m-4 my-2 overflow-hidden truncate" id="score">
+        <div class="flex flex-row overflow-hidden truncate mx-3">
+            <div class="mr-3 text-xl">01</div>
+            <div>
+                <p class="text-xl overflow-hidden truncate">クシローネ</p>
+                <p class="text-xs text-gray-500">釧路高専</p>
+                <p class="text-xs">ハートを　手に入れた！</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js">update_score()</script>
+</body>
+</html>
